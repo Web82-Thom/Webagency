@@ -1,0 +1,168 @@
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .menu img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        position: relative;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul
+    {   
+        margin: auto;
+        padding: 0;
+        flex-wrap: wrap;
+        margin-right: auto;
+        left: 0;
+    }
+    .menu li {
+
+    }
+    .logo
+    {
+
+    }
+    #slider_zone {
+        top: 11em;
+    }
+
+    #slider img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #slider #text {
+        margin-top: 0;
+        margin-left: 3em;
+        width: 22em;
+        
+    }
+    article {
+        
+    }
+    #computer {
+
+    }
+    article img {
+        
+    }
+    #services li {
+        margin-right: -5em;
+    }
+    .descriptif {
+
+    }
+    #our_services {
+        top: 11em;
+    }
+
+    #our_projets {
+        position: relative;
+        top: 340px;
+    }
+    #section_form {
+        position: relative;
+        top: 350px;
+    }
+
+    #form {
+
+    }
+}
+@media screen and (max-width: 640px){
+
+    body {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    .menu img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        position: relative;
+    }
+    .menu {
+
+    }
+    .menu ul {
+
+        justify-content: center;
+        background-color: white;
+        display: flex;
+        width: initial;
+        margin: 0px;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .menu li {
+
+    }
+    .logo
+    {
+
+    }
+    #slider_zone {
+        position: relative;
+        top: 75px;
+    }
+
+    #slider img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #slider #text {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        top: 225px;
+        color: black;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    #computer {
+
+    }
+    article img {
+        
+    }
+    #services li {
+        margin-right: -5em;
+    }
+    .descriptif {
+
+    }
+    #our_services {
+        position: relative;
+        top: 320px;
+    }
+
+    #our_projets {
+        position: relative;
+        top: 340px;
+    }
+    #section_form {
+        position: relative;
+        top: 350px;
+    }
+
+    #form {
+
+    }
+
+
+}

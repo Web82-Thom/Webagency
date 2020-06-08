@@ -1,0 +1,216 @@
+/*ECRAN COMPRIS ENTRE 360MIN ET 650PX MAX*/
+body {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.menu p {
+    left: 0;
+    margin: 20px;
+}
+
+.menu ul {
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    left: 0;
+}
+
+.menu li {
+    padding: 0.7em;
+    font-size: 75%;
+}
+
+#slider img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#slider {
+    top: 9em;
+}
+
+#introduction {
+    top: -110%;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    margin:0;
+    align-items: center;
+    color: black;
+}
+
+#introduction h1 {
+    margin: 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+#text_introduction {
+    font-size: 12px;
+    margin: 0;
+    padding: 6px;
+    width: 80%;
+}
+
+#more_infos {
+    width: auto;
+    font-size: 12px;
+    padding: 7px;
+}
+
+.fa-angle-right {
+    font-size: 50%;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fa-angle-left {
+    font-size: 50%;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.titles_sections {
+    margin: 10px;
+    font-size: 24px
+}
+
+#our_services {
+    top: 17em;
+}
+
+.intro_services {
+    font-size: 14px;
+    margin-left: 15% ;
+    margin-right: 15%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#computer {
+    margin: auto;
+    width: 80%;
+}
+
+#computer img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+article img {
+    margin: auto;
+    width: 100%;
+}
+
+#services {
+    width: 100%
+}
+
+#services ul {
+    padding: 0;
+    margin:2%;
+    font-size: 14px;
+}
+
+#our_projects {
+    top: 18em;
+}
+
+.introduction_projects {
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#projects li {
+    font-size: 0.8em;
+}
+
+.item_link {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.fa-sort-down {
+    top: 15px;
+    margin: 0;
+}
+
+.item_link:hover> .fa-sort-down {
+    top: 88%;
+}
+
+#portfolio figure {
+    width: 75%;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#portfolio p {
+    font-size: 18px;
+}
+
+figcaption {
+    height: 35%;
+}
+
+#section_form {
+    top: 18em;
+}
+
+iframe {
+    z-index: 1;
+    margin-top: 0;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 102%;
+    left: 0;
+    right:0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    padding: 10px;
+}
+
+#form h2 {
+    font-size: 2em;
+    margin: 0;
+    padding-top: 0.5em
+}
+
+#form p {
+    margin: 0;
+    padding-top: 1em;
+}
+
+#form input {
+    width: 50%;
+}

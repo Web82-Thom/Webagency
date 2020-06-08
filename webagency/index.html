@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
+<!--open graph protocol pour les robots-->
+    <head>
+        <title> Bienvenue chez WebAgency! </title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <!--encodage des caractères du document-->
+        <meta http-equiv="content-type" content="text/html" />
+        <meta charset="utf-8">
+        <!--utilise pour simuler un en-tete de reponse HTTP-->
+        <meta http-equiv="refresh" content="3600" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--@Media-Query-->
+        <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/1024resolution.css"  type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 940px)" href="css/940resolution.css"  type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 635px)" href="css/635resolution.css"  type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 360px)" href="css/360resolution.css"  type="text/css" />
+        <!--viewport ecran mobile-->
+        <!--La largeur de mon site = largeur de l'appareil /avec un zoom maximal(l'utilisateur pourra zoomer)-->
+        <meta name="viewport" content="width=device-width initial-scale=1.0" />
+        <!--affichage Icon-Apple-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon-144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144-precomposed.png" />
+        <!-- lien integration de la police Roboto -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+        <!--description de la page web-->
+        <meta name="description" content="Bienvenue chez WebAgency, venez decouvrir nos services Ux-Design, Ui-Design, SEO ainsi que nos projets." />
+        <!--pour les moteurs de recherches pas trop utilisé-->
+        <meta name="keywords" content="Webagency, crétion, site, internet, Uxdesign, Uidesign, SEO, Paris, services,portfolio." />
+        <!--Créateur du site-->
+        <meta name="author" content="ORTA Thomas" />
+        <!--Cela permet aux éditeurs du logiciel de faire des statistiques IBM-->
+        <meta name="generator" content="nom de l'outil (version)<" />
+        <!--Droit copiright-->
+        <meta name="copyright" content="Web@82" />
+        <!--protocole Open Graph de base-->
+        <meta property="og:title" content="WebAgency" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="images/logo.png" />
+        <meta property="og:url" content="index.html" />
+        <meta property="og:description" content="Bienvenue chez WebAgency, venez decouvrir nos services Ux-Design, Ui-Design, SEO ainsi que nos projets." />
+        <meta property="og:site_name" content="Webagency" />
+        <!--contrôler la façon dont les moteurs de recherches explorent et indexent une page.-->
+        <meta name="robots" content="none" />
+    </head>
+
+    <body>  
+        <header>    
+            <nav class="menu">
+                <p><a href="#"><img src="images/logo.png" alt="logo de WebAgency" class="logo" title="Webagency" /></a></p>     
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#our_services">Services</a></li>
+                    <li><a href="#our_projects">Portfolio</a></li>
+                    <li><a href="#form_and_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>                           
+<!--section slider -->
+        <!--<section id="slider_zone">-->
+            <div id="slider">
+                <div id="slides">
+                    <div class="slide">
+                        <img src="images/slider/bg1.jpg" alt="petite fille main colorer" />
+                        <img src="images/slider/bg2.jpg" alt="petit garçon>" />
+                    </div>
+                </div>
+                <div class="previous_left">
+                    <a href="#" class="previous_link_left"><i class="fas fa-angle-left"></i></a>
+                </div>
+                <div class="previous_right">
+                    <a href="#" class="previous_link_right"><i class="fas fa-angle-right"></i></a>
+                </div>
+                <div id="introduction">
+                    <h1><span>Webagency</span> : l'agence de tous vos projets!</h1>
+                    <p id="text_introduction">Vous avez un projet Web? La WebAgency vous aide à le réaliser !</p>
+                    <p id="more_infos"><a href="#our_projects" type="button" title="Cliquez pour plus d'infos">Plus d'infos</a></p>
+                </div>
+                <div id="loading_contener">
+                    <progress id="loading_progress" value="100" max="100"></progress>
+                </div> 
+            </div> 
+        <!--</section>-->  
+<!--SECTION NOS SERVICES-->
+        <section id="our_services">
+            <h2 class="titles_sections">Nos services</h2>
+            <div class="separator">
+                <hr>
+                <i class="fas fa-circle background_separator"></i>
+            </div>
+            <p class="intro_services"> Notre équipe met son savoir-faire et son énergie au service de la conception et de la réalisation de sites web simples, proféssionnels et éfficaces.</p>   
+<!-- PARTI DROITE-->
+            <article >  
+                <div id="computer">
+                    <img src="images/main_feature.png" alt="computer" />
+                </div>
+<!-- PARTI GAUCHE-->
+                <div id="services"> 
+                    <ul>
+                        <li>
+                            <div class="icons">
+                                <i class="fas fa-circle point"></i>
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div>
+                                <h2>UX Design</h2>
+                                <p class="descriptif">L'User Experience Design  permet d’augmenter les performances d’un site web ou d’une application mobile en le rendant conforme aux attentes des utilisateurs.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fas fa-circle point"></i>
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <div>
+                                <h2>UI Design</h2>
+                                <p class="descriptif">L’UI design se rapporte à l’environnement graphique dans lequel évolue l’utilisateur d’un logiciel, d’un site web ou d’une application.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fas fa-circle point"></i>
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div>
+                                <h2>SEO</h2>
+                                <p class="descriptif">Votre site internet en première page de Google. Notre équipe met en place une stratégie de référencement propre et de qualité.</p>
+                            </div>
+                        </li>
+                    </ul>               
+                </div>
+            </article>
+        </section>  
+<!--NOS PROJETS-->
+        <section id="our_projects">
+            <h2 class="titles_sections">Nos projets</h2>
+            <div class="separator">
+                <hr>
+            <i class="fas fa-circle background_separator"></i>
+            </div>
+            <p class="introduction_projects">Retrouvez tous nos projets créés pour nos clients : sites internet, vitrine, e-commerce...</p>
+            <nav id="projects">
+                <ul id="navigation_project">
+                    <li class="item">
+                        <span class="item_link">All Works<i class="fas fa-sort-down"></i></span>
+                    </li>
+                    <li class="item">
+                        <span class="item_link">Creative<i class="fas fa-sort-down"></i></span>
+                    </li>
+                    <li class="item">
+                        <span class="item_link">Corporate<i class="fas fa-sort-down"></i></span>
+                    </li>
+                    <li class="item">
+                        <span class="item_link">Portfolio<i class="fas fa-sort-down"></i></span>
+                    </li>
+                </ul>
+            </nav>
+            <div id="portfolio">
+                <figure>
+                    <img src="images/portfolio/01.jpg" alt="Mr Lunette" class="P01">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Lunettor</h4>
+                        <p>Collection de lunettes chic!</p> 
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/02.jpg" alt="Mr lapin" class="P02">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Lapin</h4>
+                        <p>Les lapins en grève!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/03.jpg" alt="marque pompadour" class="P03">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Pompadour</h4>
+                        <p>Vêtements Pompadour!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/04.jpg" alt="plan" class="P04">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Dessin</h4>
+                        <p>Dessin origami!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/05.jpg" alt="sacs shopping" class="P05">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Shop bag</h4>
+                        <p>Bag recyclage!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/06.jpg" alt="industrie" class="P06"> 
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Industrie</h4>
+                        <p>Evolution industriel!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/07.jpg" alt="pinceau" class="P07">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Art des Arts</h4>
+                        <p>Gallerie peintures!</p>
+                    </figcaption>
+                </figure>
+                <figure> 
+                    <img src="images/portfolio/08.jpg" alt="fournitures de bureau" class="P08">
+                    <figcaption>
+                        <i class="far fa-eye"></i>
+                        <h4>Fournitures</h4>
+                        <p>Mon bureau bio!</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    <!--section formulaire de contact --> 
+        <section id="section_form">
+            <div id="form_and_contact">
+                <div class="iframe_background">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1574804582802!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div id="form">
+                    <form>
+                        <h2>Contact Info</h2>
+                        <p><span id="form_p">WebAgency SAS</span><br />
+                        25 rue d'autheville 75010 PARIS<br />
+                        <span id="form_tel">Tel :</span> 01 02 03 04 05</p><br />
+                        <input id="form_name" type="name" name="Name" placeholder="Name" size="30"><br />
+                        <input id="form_mail" type="email" name="Email" placeholder="Email" size="30" maxlength="50"><br />
+                        <input id="form_sujet" type="text" name="sujet" placeholder="Subject" size="30"><br />
+                        <textarea id="form_text"  name="text" rows="10" cols="30" placeholder="Message" maxlength="150"></textarea><br />
+                        <button id="send" type="button" title="Envoyer"> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="https://kit.fontawesome.com/67cbdf618e.js" crossorigin="anonymous"></script>
+    </body>
+</html>

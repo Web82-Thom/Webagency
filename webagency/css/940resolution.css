@@ -1,0 +1,170 @@
+/*ECRAN COMPRIS ENTRE 650MIN ET 940PX MAX*/
+body {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.menu p {
+    left: 0;
+    margin: 20px;
+}
+
+.menu ul {
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    left: 0;
+}
+
+.menu li {
+    padding: 0.7em;
+    font-size: 75%;
+}
+
+#introduction {
+    bottom: 15%;
+    flex-direction: column;
+    left: 9%;
+    width: 70%;
+}
+
+#introduction h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#text_introduction {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+#more_infos {
+    width: 15%;
+    font-size: 11px;
+    padding: 8px;
+}
+
+.fa-angle-right {
+    font-size: 50%;
+}
+
+.fa-angle-left {
+    font-size: 50%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#computer {
+    margin: auto;
+    width: 80%;
+}
+
+#computer img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+article img {
+    margin: auto;
+    width: 100%;
+}
+
+#services {
+    width: 100%
+}
+
+#services ul {
+    padding: 0;
+    margin:2%;
+}
+
+#our_services {
+    top: 7em;
+}
+
+#our_projects {
+    top: 8em;
+}
+
+#projects li {
+    font-size: 0.8em;
+}
+
+.item_link {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.fa-sort-down {
+    top: 15px;
+    margin: 0;
+}
+
+.item_link:hover> .fa-sort-down {
+    top: 88%;
+}
+
+#portfolio figure {
+    width: 45%;
+}
+h4 {
+    font-size: 21px;
+}
+
+#portfolio p {
+    font-size: 21px;
+}
+
+#section_form {
+    top: 9em;
+}
+
+iframe {
+    z-index: 1;
+    margin-top: 0;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 102%;
+    left: 0;
+    right:0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    padding: 10px;
+}
+
+#form h2 {
+    font-size: 2em;
+    margin: 0;
+    padding-top: 0.5em
+}
+
+#form p {
+    margin: 0;
+    padding-top: 1em;
+}
+
+#form input {
+    width: 50%;
+}
+

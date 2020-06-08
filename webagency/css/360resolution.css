@@ -1,0 +1,179 @@
+/*ECRAN INFERIEUR A 360PX MAX*/
+.menu img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+}
+
+.menu ul a {
+    font-size: 9px;
+}
+
+.menu li {
+display: flex;
+padding: 10px;
+font-size: 0.8em;
+padding-right: 0;
+padding-left: 0;    }
+
+#slider {
+ top: 9em;
+}
+
+#slider img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#introduction {
+    width: 100%;
+    margin: 0;
+    top: 110%;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+#introduction h1 {
+    font-size: 20px;
+    width: 80%;
+}
+
+#introduction p {
+    font-size: 10px;
+    margin: 1em;
+}
+
+#more_infos {
+    font-size: 13px;
+    padding: 7px;
+}
+
+.fa-previous-right {
+    font-size: 50%;
+}
+
+.fa-previous-right {
+    padding: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.fa-angle-left {
+    font-size: 50%;
+}
+
+.fa-angle-left {
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.titles_sections {
+    margin: 12px;
+}
+
+@-moz-document url-prefix() {
+    #slides {
+        overflow: hidden;
+        width: 200%;
+    }
+    #slider {
+        overflow: hidden;
+        width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#computer {
+    margin: 0px;
+    width: 100%;
+}
+
+article img {
+    margin: auto;
+    width: 100%;
+}
+
+#our_services {
+    top: 20em;
+}
+
+#services ul {
+    padding: 0;
+    margin: 0.5em;
+}
+
+#our_projects {
+    top: 20em;
+}
+
+#projects li {
+    font-size: 10px;
+}
+
+#navigation_project {
+display: flex;
+margin: auto;
+list-style-type: none;
+justify-content: center;
+padding: 0px;
+margin-bottom: 25px;
+margin-top: 25px
+}
+
+.fa-sort-down:before {
+content: "";
+margin-left: 0;
+}
+
+.item_link:hover> .fa-sort-down {
+position: absolute;
+visibility: visible;
+right: 50%;
+margin-right: -5px;
+/* top: 92%; */
+    margin-top: 2px;
+}
+
+.intro_services {
+    margin: 1em;
+}
+
+#projects li {
+    font-size: 0.7em;
+}
+
+.fa-sort-down {
+    top: 23px;
+}
+
+.item_link {
+    padding: 6px;
+    font-size: 14px;
+}
+
+#portfolio figure {
+    width: 100%;
+}
+
+#section_form {
+    top: 19em;
+}
+
+#form {
+    position: relative;
+    width: auto;
+    margin: 0;
+    display: flex;
+}
+
+form{
+    margin: auto;
+}
